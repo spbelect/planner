@@ -1,0 +1,7 @@
+{
+  "type": "merge",
+  "args": {
+    "camid": "555"
+  },
+  "status": "failed"
+}

@@ -1,0 +1,5 @@
+{
+  "type": "export",
+  "cmd": "rsync --rsh='ssh -oBatchMode=yes -p22' --recursive /tmp/churo/merged/ u1@localhost:/tmp/churo/exported",
+  "status": "finished"
+}

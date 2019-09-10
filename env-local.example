@@ -1,0 +1,28 @@
+# Copy this file to `env-local`.
+
+CHURO_TMP_DOWNLOAD_DIR="/tmp/churotmp/download/"
+CHURO_DOWNLOADED_DIR="/tmp/churo/downloaded/"
+
+CHURO_TMP_MERGE_DIR="/tmp/churotmp/merge/"
+CHURO_MERGED_DIR="/tmp/churo/merged/"
+
+CHURO_NUM_DOWNLOAD_WORKERS=1000
+CHURO_NUM_MERGE_WORKERS=2
+CHURO_NUM_EXPORT_WORKERS=1
+
+# Суммарное кол-во отсутствующих секунд с 8ч до 20ч допустимое для склеивания.
+#CHURO_MERGE_08_20_TOLERATE_GAPS_DURATION=300
+CHURO_MERGE_08_20_TOLERATE_GAPS_DURATION=43200
+
+# Допускать склеивание недокачанных сегментов с разрывами.
+CHURO_MERGE_TOLERATE_INCOMPLETE_DOWNLOADS=false
+
+# Taskloop config
+CHURO_TASKS_DIR="./sample/"
+
+# Planner config
+CHURO_ELECT_DATE=2018-03-18
+#CHURO_PLANS_ADD_HOUR_START=7
+#CHURO_PLANS_ADD_HOUR_END=25
+#CHURO_PLANS_ADD_FIRST_UIK=1
+#CHURO_PLANS_ADD_LAST_UIK=5000
