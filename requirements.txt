@@ -18,7 +18,7 @@ lockorator==0.1
 loguru==0.2.5
 multidict==4.5.2
 psutil==5.6.6
-pydantic==0.21
+pydantic==1.6.2
 Pygments==2.3.1
 sniffio==1.0.0
 starlette==0.11.1
