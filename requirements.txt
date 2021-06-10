@@ -9,7 +9,7 @@ chardet==3.0.4
 Click==7.0
 colorama==0.4.1
 django-environ==0.4.5
-fastapi==0.12.1
+fastapi==0.65.2
 getinstance==0.1
 h11==0.8.1
 httptools==0.0.13
